@@ -1,0 +1,13 @@
+ingest_id;document_id;matter_id;title;document_type;department;received_date;document_date;status;page_count;ocr_confidence;source;reviewed_date;reviewer_id;confidentiality;language;review_due_date
+ROW-0001;DOC-0001;MAT-001;Servicevereinbarung Partner 01;Vertrag;Einkauf;2026-09-08;2026-09-06;Neu;2;0.71;Scan;;;Intern;de;2026-09-18
+ROW-0002;DOC-0002;MAT-001;Ergänzung Standort 3;Nachtrag;  Einkauf ;2026-09-15;2026-09-12;Rückfrage;3;;Upload;;REV-003;Intern;de;2026-09-25
+ROW-0003;DOC-0003;MAT-001;Beendigung einer Servicevereinbarung;Kündigung;Einkauf;2026-09-22;2026-09-18;freigegeben;4;;E-Mail;2026-09-26;REV-004;Vertraulich;de;2026-10-02
+ROW-0004;DOC-0004;MAT-001;Leistungsabrechnung RE-2026-0004;Rechnung;Einkauf;2026-09-29;2026-09-24;In Prüfung;5;;email;;REV-005;Intern;de;2026-10-09
+ROW-0005;DOC-0005;MAT-001;Anfrage zu gespeicherten Kontaktdaten;Datenschutzanfrage;Einkauf;06.10.2026;2026-09-30;Neu;6;;Upload;;;Intern;de;2026-10-16
+ROW-0006;DOC-0006;MAT-001;Rückfrage zur Unterlagenlieferung 6;Schriftverkehr;Einkauf;2026-10-13;2026-10-06;Rückfrage;7;0,82;Scan;;REV-002;Vertraulich;de;2026-10-23
+ROW-0007;DOC-0007;MAT-001;Servicevereinbarung Partner 01;Vertrag;Einkauf;2026-10-20;2026-10-12;Freigegeben;8;92%;Scan;2026-10-21;REV-003;Intern;de;2026-10-30
+ROW-0008;DOC-0008;MAT-001;;Nachtrag;Einkauf;2026-10-27;2026-10-18;In Prüfung;9;;Upload;;REV-004;Intern;de;2026-11-06
+ROW-0009;DOC-0009;MAT-001;Beendigung einer Servicevereinbarung;Kündigung;Einkauf;2026-11-03;2026-11-02;Neu;0;;E-Mail;;;Streng vertraulich;de;2026-11-13
+ROW-0010;DOC-0010;MAT-001;Leistungsabrechnung RE-2026-0010;Rechnung;Einkauf;31.02.2026;2026-11-08;Rückfrage;11;0.80;Scan;;REV-001;Intern;de;2026-11-20
+ROW-0011;DOC-0011;MAT-002;Anfrage zu gespeicherten Kontaktdaten;Datenschutzanfrage;Personal;2026-11-17;2026-11-14;Rückfrage;12;;Upload;;REV-999;Intern;de;2026-11-27
+ROW-0012;DOC-0012;MAT-999;Rückfrage zur Unterlagenlieferung 12;Schriftverkehr;Personal;2026-09-04;2026-08-31;Freigegeben;13;;E-Mail;2026-09-10;REV-003;Vertraulich;de;2026-09-14

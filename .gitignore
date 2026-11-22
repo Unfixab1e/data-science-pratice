@@ -1,0 +1,22 @@
+# Generated Java bytecode and IDE-local settings.
+*.class
+out/
+target/
+.idea/
+*.iml
+.vscode/
+
+# Learner-generated outputs are local until deliberately selected for a commit.
+outputs/*
+!outputs/.gitkeep
+!outputs/README.md
+
+# Local platform files.
+.DS_Store
+Thumbs.db
+
+# Never commit credentials or real employer/client material.
+.env
+.env.*
+!.env.example
+*.key

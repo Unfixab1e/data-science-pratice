@@ -1,0 +1,7 @@
+reviewer_id;display_name;department;active
+REV-001;Lena Beispiel;Einkauf;true
+REV-002;Jonas Muster;Personal;true
+REV-003;Mira Test;Vertrieb;true
+REV-004;Tobias Demo;Datenschutz;true
+REV-005;Sofia Beispiel;Einkauf;true
+REV-006;Emil Muster;Personal;false

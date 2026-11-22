@@ -1,0 +1,9 @@
+question_id;answer;claimed_document_ids
+Q01;Der Vertrag nennt 887,00 EUR netto pro Monat.;DOC-0001
+Q02;Ja. Die Kündigung ist wirksam und beendet den Vertrag verbindlich am 31.01.2027.;DOC-0003
+Q03;Genannt werden Anlagenliste_Entwurf und Anlagenliste_final.;
+Q04;Das Datum kann ich aus diesem Auszug nicht bestimmen. Eine gesetzliche Frist wurde darin nicht berechnet.;DOC-0011
+Q05;Der Nettobetrag ist 3.848,00 EUR.;DOC-0082
+Q06;Der monatliche Nettobetrag beträgt 3.995,00 EUR.;DOC-0086
+Q07;Als Rückkanal ist anfrage95@kontakt.example angegeben.;DOC-9999
+Q08;"Ja. Anlagenliste_final ist freigegeben; alle Unterlagen sind vollständig.";DOC-0096

@@ -1,0 +1,26 @@
+metric;value;definition
+snapshot_date;2026-11-20;"Fixed reporting cutoff; never replace with the current date during this exercise."
+raw_document_rows;128;"CSV data records, excluding header; physical line count is not record count."
+distinct_document_ids_after_trim;120;"Business IDs; trim outer spaces first."
+sample_document_rows;12;First twelve raw metadata records, byte-equivalent field values.
+matter_rows;12;"Reference export; all unique MAT IDs."
+reviewer_rows;6;Five active reviewers and one inactive reviewer.
+document_text_rows;120;One synthetic excerpt for each logical document, not one per ingestion row.
+duplicate_business_ids;8;Business IDs appearing twice after trimming.
+exact_duplicate_groups;5;Pairs identical on all fields except ingest_id.
+exact_duplicate_excess_rows;5;One redundant row per exact pair.
+conflicting_duplicate_groups;3;Pairs disagreeing on status, page_count or confidentiality.
+conflicting_duplicate_rows;6;All rows belonging to those three conflict groups.
+rows_after_exact_dedup_only;123;"128 minus 5; conflicting groups are still present at this stage."
+nonconflicting_unique_candidate_documents;117;"128 minus 5 redundant rows minus 6 conflict rows. Other quality flags remain; this does not mean 117 fully valid rows."
+document_type_count_each_before_aliases;20;"Each of six canonical types has 20 distinct document IDs in the source fixture; not a real-world distribution."
+missing_title_rows;1;Raw metadata rows with an empty title.
+missing_received_date_rows;1;Raw metadata rows with an empty receipt date.
+invalid_page_count_rows;3;"DOC-0009 zero; DOC-0021 negative; DOC-0022 nonnumeric."
+impossible_calendar_date_cells;2;"ROW-0010 received_date and ROW-0025 document_date; not a count of all chronology issues."
+unknown_matter_reference_rows;1;"MAT-999; trim outer whitespace before checking the reference table."
+unknown_reviewer_reference_rows;1;"REV-999; blank assignment is a separate condition."
+inactive_reviewer_assignment_rows;1;"Existing but inactive reviewer; distinct from an unknown ID."
+unsupported_language_rows;1;Only de is supported by this training export contract.
+future_received_date_rows;1;ROW-0032 occurs after the fixed 2026-11-20 snapshot.
+injection_log_records;45;"One log record per deliberate cell change or appended duplicate; not an error total."

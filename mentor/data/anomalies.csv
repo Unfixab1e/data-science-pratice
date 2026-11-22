@@ -1,0 +1,46 @@
+ingest_id;document_id;field;before;after;issue_kind;reason
+ROW-0002;DOC-0002;department;Einkauf;  Einkauf ;format;"Leading and trailing spaces; trim edges only."
+ROW-0003;DOC-0003;status;Freigegeben;freigegeben;alias;"Lowercase spelling; use the documented status mapping."
+ROW-0004;DOC-0004;source;E-Mail;email;alias;Alias for E-Mail.
+ROW-0005;DOC-0005;received_date;2026-10-06;06.10.2026;format;Valid German date notation.
+ROW-0006;DOC-0006;ocr_confidence;0.82;0,82;format;"Decimal comma; normalize to 0.82."
+ROW-0007;DOC-0007;ocr_confidence;0.92;92%;format;"Percentage; normalize to 0.92."
+ROW-0008;DOC-0008;title;Ergänzung Standort 1;;missing;"Title missing; do not invent one in the cleaning exercise."
+ROW-0009;DOC-0009;page_count;10;0;invalid_number;Zero pages is invalid for an ingested document.
+ROW-0010;DOC-0010;received_date;2026-11-10;31.02.2026;invalid_date;"Impossible calendar date; strict parsing must reject it."
+ROW-0011;DOC-0011;reviewer_id;REV-002;REV-999;unknown_reference;Reviewer absent from reviewer reference export.
+ROW-0012;DOC-0012;matter_id;MAT-002;MAT-999;unknown_reference;Matter absent from matter reference export.
+ROW-0015;DOC-0015;document_type;Kündigung;Kuendigung;alias;ASCII spelling of Kündigung.
+ROW-0016;DOC-0016;status;Freigegeben; Freigegeben  ;format;Leading and trailing spaces.
+ROW-0017;DOC-0017;received_date;2026-10-09;;missing;"Receipt date unavailable; do not derive it from another field."
+ROW-0018;DOC-0018;document_date;2026-10-15;2026-10-18;chronology;Document date after receipt requires review, not automatic correction.
+ROW-0019;DOC-0019;reviewed_date;2026-10-29;2026-10-22;chronology;Review recorded before receipt.
+ROW-0020;DOC-0020;ocr_confidence;0.90;1.20;invalid_number;OCR confidence outside the allowed 0..1 range.
+ROW-0021;DOC-0021;page_count;4;-3;invalid_number;Negative page count.
+ROW-0022;DOC-0022;page_count;5;fünf;invalid_number;"Page count supplied as text; no undocumented inference."
+ROW-0023;DOC-0023;language;de;xx;unknown_category;Unsupported language code.
+ROW-0024;DOC-0024;confidentiality;Vertraulich;;missing;"Classification missing; do not default to less restrictive access."
+ROW-0025;DOC-0025;document_date;2026-09-06;2026-04-31;invalid_date;April has no day 31.
+ROW-0026;DOC-0026;review_due_date;2026-10-01;2026-09-19;chronology;Internal operational review target predates receipt.
+ROW-0027;DOC-0027;department;Vertrieb;vertrieb;alias;Lowercase department spelling.
+ROW-0029;DOC-0029;document_type;Datenschutzanfrage;Datenschutz-Anfrage;alias;Documented alias for Datenschutzanfrage.
+ROW-0030;DOC-0030;source;Upload;UPLOAD;alias;Uppercase spelling of Upload.
+ROW-0031;DOC-0031;reviewed_date;2026-10-30;;missing;Freigegeben status without a review date.
+ROW-0032;DOC-0032;received_date;2026-11-02;2026-12-01;snapshot_date;Receipt date is after the fixed snapshot.
+ROW-0032;DOC-0032;document_date;2026-10-27;2026-11-30;snapshot_date;Document date is after the fixed snapshot.
+ROW-0032;DOC-0032;review_due_date;2026-11-12;2026-12-11;paired_fixture_change;"Moved with future receipt to keep due-date ordering consistent; a future due date alone is allowed."
+ROW-0033;DOC-0033;department;Datenschutz;Recht;unknown_category;Department not present in the agreed controlled vocabulary.
+ROW-0034;DOC-0034;ocr_confidence;0.75;;missing;"A scan has no OCR confidence; blanks for E-Mail/Upload are otherwise allowed."
+ROW-0036;DOC-0036;reviewer_id;REV-002;;missing;In Prüfung without an assigned reviewer.
+ROW-0037;DOC-0037;document_id;DOC-0037; DOC-0037 ;format;"Trim before joining IDs; do not alter the original file."
+ROW-0038;DOC-0038;matter_id;MAT-004; MAT-004 ;format;Trim the foreign key before joining.
+ROW-0039;DOC-0039;received_date;2026-10-01; 2026-10-01 ;format;Trim dates before parsing.
+ROW-0042;DOC-0042;reviewer_id;REV-003;REV-006;inactive_reference;"Existing reviewer is inactive; flag for reassignment, not an orphan."
+ROW-0121;DOC-0051;*;ROW-0051;ROW-0121;exact_duplicate;"All business fields identical; ingest_id differs because the row was imported again."
+ROW-0122;DOC-0062;*;ROW-0062;ROW-0122;exact_duplicate;"All business fields identical; ingest_id differs because the row was imported again."
+ROW-0123;DOC-0073;*;ROW-0073;ROW-0123;exact_duplicate;"All business fields identical; ingest_id differs because the row was imported again."
+ROW-0124;DOC-0084;*;ROW-0084;ROW-0124;exact_duplicate;"All business fields identical; ingest_id differs because the row was imported again."
+ROW-0125;DOC-0095;*;ROW-0095;ROW-0125;exact_duplicate;"All business fields identical; ingest_id differs because the row was imported again."
+ROW-0126;DOC-0106;status;In Prüfung;Rückfrage;conflicting_duplicate;"Two rows share a document ID but disagree. Withhold the whole group for review; do not choose the later row."
+ROW-0127;DOC-0107;page_count;18;19;conflicting_duplicate;"Two rows share a document ID but disagree. Withhold the whole group for review; do not choose the later row."
+ROW-0128;DOC-0108;confidentiality;Streng vertraulich;Intern;conflicting_duplicate;"Two rows share a document ID but disagree. Withhold the whole group for review; do not choose the later row."

@@ -1,0 +1,13 @@
+matter_id;matter_name;department;opened_date;matter_status
+MAT-001;Standortservice / Partner 01;Einkauf;2026-08-02;Offen
+MAT-002;Unterlagen Personal / Partner 02;Personal;2026-08-03;Offen
+MAT-003;Vertriebspartner / Partner 03;Vertrieb;2026-08-04;Offen
+MAT-004;Kontaktanfragen / Partner 04;Datenschutz;2026-08-05;Offen
+MAT-005;Standortservice / Partner 05;Einkauf;2026-08-06;Abgeschlossen
+MAT-006;Unterlagen Personal / Partner 06;Personal;2026-08-07;Offen
+MAT-007;Vertriebspartner / Partner 07;Vertrieb;2026-08-08;Offen
+MAT-008;Kontaktanfragen / Partner 08;Datenschutz;2026-08-09;Offen
+MAT-009;Standortservice / Partner 09;Einkauf;2026-08-10;Offen
+MAT-010;Unterlagen Personal / Partner 10;Personal;2026-08-11;Abgeschlossen
+MAT-011;Vertriebspartner / Partner 11;Vertrieb;2026-08-12;Offen
+MAT-012;Kontaktanfragen / Partner 12;Datenschutz;2026-08-13;Offen

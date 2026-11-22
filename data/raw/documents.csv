@@ -1,0 +1,130 @@
+ingest_id;document_id;matter_id;title;document_type;department;received_date;document_date;status;page_count;ocr_confidence;source;reviewed_date;reviewer_id;confidentiality;language;review_due_date
+ROW-0001;DOC-0001;MAT-001;Servicevereinbarung Partner 01;Vertrag;Einkauf;2026-09-08;2026-09-06;Neu;2;0.71;Scan;;;Intern;de;2026-09-18
+ROW-0002;DOC-0002;MAT-001;Ergänzung Standort 3;Nachtrag;  Einkauf ;2026-09-15;2026-09-12;Rückfrage;3;;Upload;;REV-003;Intern;de;2026-09-25
+ROW-0003;DOC-0003;MAT-001;Beendigung einer Servicevereinbarung;Kündigung;Einkauf;2026-09-22;2026-09-18;freigegeben;4;;E-Mail;2026-09-26;REV-004;Vertraulich;de;2026-10-02
+ROW-0004;DOC-0004;MAT-001;Leistungsabrechnung RE-2026-0004;Rechnung;Einkauf;2026-09-29;2026-09-24;In Prüfung;5;;email;;REV-005;Intern;de;2026-10-09
+ROW-0005;DOC-0005;MAT-001;Anfrage zu gespeicherten Kontaktdaten;Datenschutzanfrage;Einkauf;06.10.2026;2026-09-30;Neu;6;;Upload;;;Intern;de;2026-10-16
+ROW-0006;DOC-0006;MAT-001;Rückfrage zur Unterlagenlieferung 6;Schriftverkehr;Einkauf;2026-10-13;2026-10-06;Rückfrage;7;0,82;Scan;;REV-002;Vertraulich;de;2026-10-23
+ROW-0007;DOC-0007;MAT-001;Servicevereinbarung Partner 01;Vertrag;Einkauf;2026-10-20;2026-10-12;Freigegeben;8;92%;Scan;2026-10-21;REV-003;Intern;de;2026-10-30
+ROW-0008;DOC-0008;MAT-001;;Nachtrag;Einkauf;2026-10-27;2026-10-18;In Prüfung;9;;Upload;;REV-004;Intern;de;2026-11-06
+ROW-0009;DOC-0009;MAT-001;Beendigung einer Servicevereinbarung;Kündigung;Einkauf;2026-11-03;2026-11-02;Neu;0;;E-Mail;;;Streng vertraulich;de;2026-11-13
+ROW-0010;DOC-0010;MAT-001;Leistungsabrechnung RE-2026-0010;Rechnung;Einkauf;31.02.2026;2026-11-08;Rückfrage;11;0.80;Scan;;REV-001;Intern;de;2026-11-20
+ROW-0011;DOC-0011;MAT-002;Anfrage zu gespeicherten Kontaktdaten;Datenschutzanfrage;Personal;2026-11-17;2026-11-14;Rückfrage;12;;Upload;;REV-999;Intern;de;2026-11-27
+ROW-0012;DOC-0012;MAT-999;Rückfrage zur Unterlagenlieferung 12;Schriftverkehr;Personal;2026-09-04;2026-08-31;Freigegeben;13;;E-Mail;2026-09-10;REV-003;Vertraulich;de;2026-09-14
+ROW-0013;DOC-0013;MAT-002;Servicevereinbarung Partner 02;Vertrag;Personal;2026-09-11;2026-09-06;In Prüfung;14;0.83;Scan;;REV-004;Intern;de;2026-09-21
+ROW-0014;DOC-0014;MAT-002;Ergänzung Standort 3;Nachtrag;Personal;2026-09-18;2026-09-12;Neu;15;;Upload;;;Intern;de;2026-09-28
+ROW-0015;DOC-0015;MAT-002;Beendigung einer Servicevereinbarung;Kuendigung;Personal;2026-09-25;2026-09-18;Rückfrage;16;;E-Mail;;REV-001;Vertraulich;de;2026-10-05
+ROW-0016;DOC-0016;MAT-002;Leistungsabrechnung RE-2026-0016;Rechnung;Personal;2026-10-02;2026-09-24; Freigegeben  ;17;0.86;Scan;2026-10-05;REV-002;Intern;de;2026-10-12
+ROW-0017;DOC-0017;MAT-002;Anfrage zu gespeicherten Kontaktdaten;Datenschutzanfrage;Personal;;2026-09-30;In Prüfung;18;;Upload;;REV-003;Intern;de;2026-10-19
+ROW-0018;DOC-0018;MAT-002;Rückfrage zur Unterlagenlieferung 18;Schriftverkehr;Personal;2026-10-16;2026-10-18;Neu;1;;E-Mail;;;Streng vertraulich;de;2026-10-26
+ROW-0019;DOC-0019;MAT-002;Servicevereinbarung Partner 02;Vertrag;Personal;2026-10-23;2026-10-21;Freigegeben;2;0.89;Scan;2026-10-22;REV-005;Intern;de;2026-11-02
+ROW-0020;DOC-0020;MAT-002;Ergänzung Standort 1;Nachtrag;Personal;2026-10-30;2026-10-27;Freigegeben;3;1.20;Scan;2026-11-06;REV-001;Intern;de;2026-11-09
+ROW-0021;DOC-0021;MAT-003;Beendigung einer Servicevereinbarung;Kündigung;Vertrieb;2026-11-06;2026-11-02;Freigegeben;-3;;E-Mail;2026-11-07;REV-002;Vertraulich;de;2026-11-16
+ROW-0022;DOC-0022;MAT-003;Leistungsabrechnung RE-2026-0022;Rechnung;Vertrieb;2026-11-13;2026-11-08;In Prüfung;fünf;0.92;Scan;;REV-003;Intern;de;2026-11-23
+ROW-0023;DOC-0023;MAT-003;Anfrage zu gespeicherten Kontaktdaten;Datenschutzanfrage;Vertrieb;2026-11-20;2026-11-14;Neu;6;;Upload;;;Intern;xx;2026-11-30
+ROW-0024;DOC-0024;MAT-003;Rückfrage zur Unterlagenlieferung 24;Schriftverkehr;Vertrieb;2026-09-07;2026-08-31;Rückfrage;7;;E-Mail;;REV-005;;de;2026-09-17
+ROW-0025;DOC-0025;MAT-003;Servicevereinbarung Partner 03;Vertrag;Vertrieb;2026-09-14;2026-04-31;Freigegeben;8;0.95;Scan;2026-09-19;REV-001;Intern;de;2026-09-24
+ROW-0026;DOC-0026;MAT-003;Ergänzung Standort 3;Nachtrag;Vertrieb;2026-09-21;2026-09-12;In Prüfung;9;;Upload;;REV-002;Intern;de;2026-09-19
+ROW-0027;DOC-0027;MAT-003;Beendigung einer Servicevereinbarung;Kündigung;vertrieb;2026-09-28;2026-09-27;Neu;10;;E-Mail;;;Streng vertraulich;de;2026-10-08
+ROW-0028;DOC-0028;MAT-003;Leistungsabrechnung RE-2026-0028;Rechnung;Vertrieb;2026-10-05;2026-10-03;Rückfrage;11;0.98;Scan;;REV-004;Intern;de;2026-10-15
+ROW-0029;DOC-0029;MAT-003;Anfrage zu gespeicherten Kontaktdaten;Datenschutz-Anfrage;Vertrieb;2026-10-12;2026-10-09;Freigegeben;12;;Upload;2026-10-14;REV-005;Intern;de;2026-10-22
+ROW-0030;DOC-0030;MAT-003;Rückfrage zur Unterlagenlieferung 30;Schriftverkehr;Vertrieb;2026-10-19;2026-10-15;In Prüfung;13;;UPLOAD;;REV-001;Vertraulich;de;2026-10-29
+ROW-0031;DOC-0031;MAT-004;Servicevereinbarung Partner 04;Vertrag;Datenschutz;2026-10-26;2026-10-21;Freigegeben;14;0.72;Scan;;REV-002;Intern;de;2026-11-05
+ROW-0032;DOC-0032;MAT-004;Ergänzung Standort 1;Nachtrag;Datenschutz;2026-12-01;2026-11-30;Neu;15;;Upload;;;Intern;de;2026-12-11
+ROW-0033;DOC-0033;MAT-004;Beendigung einer Servicevereinbarung;Kündigung;Recht;2026-11-09;2026-11-02;Rückfrage;16;;E-Mail;;REV-004;Vertraulich;de;2026-11-19
+ROW-0034;DOC-0034;MAT-004;Leistungsabrechnung RE-2026-0034;Rechnung;Datenschutz;2026-11-16;2026-11-08;Freigegeben;17;;Scan;2026-11-20;REV-005;Intern;de;2026-11-26
+ROW-0035;DOC-0035;MAT-004;Anfrage zu gespeicherten Kontaktdaten;Datenschutzanfrage;Datenschutz;2026-09-03;2026-08-25;In Prüfung;18;;Upload;;REV-001;Intern;de;2026-09-13
+ROW-0036;DOC-0036;MAT-004;Rückfrage zur Unterlagenlieferung 36;Schriftverkehr;Datenschutz;2026-09-10;2026-09-09;In Prüfung;1;;E-Mail;;;Streng vertraulich;de;2026-09-20
+ROW-0037; DOC-0037 ;MAT-004;Servicevereinbarung Partner 04;Vertrag;Datenschutz;2026-09-17;2026-09-15;Rückfrage;2;0.78;Scan;;REV-003;Intern;de;2026-09-27
+ROW-0038;DOC-0038; MAT-004 ;Ergänzung Standort 3;Nachtrag;Datenschutz;2026-09-24;2026-09-21;Freigegeben;3;;Upload;2026-09-28;REV-004;Intern;de;2026-10-04
+ROW-0039;DOC-0039;MAT-004;Beendigung einer Servicevereinbarung;Kündigung;Datenschutz; 2026-10-01 ;2026-09-27;In Prüfung;4;;E-Mail;;REV-005;Vertraulich;de;2026-10-11
+ROW-0040;DOC-0040;MAT-004;"Rechnung für ""Standort Süd""; Zusatzleistung";Rechnung;Datenschutz;2026-10-08;2026-10-03;Neu;5;0.81;Scan;;;Intern;de;2026-10-18
+ROW-0041;DOC-0041;MAT-005;"Abstimmung
+Standort Nord";Datenschutzanfrage;Einkauf;2026-10-15;2026-10-09;Neu;6;;Upload;;;Intern;de;2026-10-25
+ROW-0042;DOC-0042;MAT-005;Rückfrage zur Unterlagenlieferung 42;Schriftverkehr;Einkauf;2026-10-22;2026-10-15;Rückfrage;7;;E-Mail;;REV-006;Vertraulich;de;2026-11-01
+ROW-0043;DOC-0043;MAT-005;Servicevereinbarung Partner 05;Vertrag;Einkauf;2026-10-29;2026-10-21;Freigegeben;8;0.84;Scan;2026-10-31;REV-004;Intern;de;2026-11-08
+ROW-0044;DOC-0044;MAT-005;Ergänzung Standort 1;Nachtrag;Einkauf;2026-11-05;2026-10-27;In Prüfung;9;;Upload;;REV-005;Intern;de;2026-11-15
+ROW-0045;DOC-0045;MAT-005;Beendigung einer Servicevereinbarung;Kündigung;Einkauf;2026-11-12;2026-11-11;Neu;10;;E-Mail;;;Streng vertraulich;de;2026-11-22
+ROW-0046;DOC-0046;MAT-005;Leistungsabrechnung RE-2026-0046;Rechnung;Einkauf;2026-11-19;2026-11-17;Rückfrage;11;0.87;Scan;;REV-002;Intern;de;2026-11-29
+ROW-0047;DOC-0047;MAT-005;Anfrage zu gespeicherten Kontaktdaten;Datenschutzanfrage;Einkauf;2026-09-06;2026-09-03;Freigegeben;12;;Upload;2026-09-12;REV-003;Intern;de;2026-09-16
+ROW-0048;DOC-0048;MAT-005;Rückfrage zur Unterlagenlieferung 48;Schriftverkehr;Einkauf;2026-09-13;2026-09-09;In Prüfung;13;;E-Mail;;REV-004;Vertraulich;de;2026-09-23
+ROW-0049;DOC-0049;MAT-005;Servicevereinbarung Partner 05;Vertrag;Einkauf;2026-09-20;2026-09-15;Neu;14;0.90;Scan;;;Intern;de;2026-09-30
+ROW-0050;DOC-0050;MAT-005;Ergänzung Standort 3;Nachtrag;Einkauf;2026-09-27;2026-09-21;Rückfrage;15;;Upload;;REV-001;Intern;de;2026-10-07
+ROW-0051;DOC-0051;MAT-006;Beendigung einer Servicevereinbarung;Kündigung;Personal;2026-10-04;2026-09-27;Rückfrage;16;;E-Mail;;REV-002;Vertraulich;de;2026-10-14
+ROW-0052;DOC-0052;MAT-006;Leistungsabrechnung RE-2026-0052;Rechnung;Personal;2026-10-11;2026-10-03;Freigegeben;17;0.93;Scan;2026-10-15;REV-003;Intern;de;2026-10-21
+ROW-0053;DOC-0053;MAT-006;Anfrage zu gespeicherten Kontaktdaten;Datenschutzanfrage;Personal;2026-10-18;2026-10-09;In Prüfung;18;;Upload;;REV-004;Intern;de;2026-10-28
+ROW-0054;DOC-0054;MAT-006;Rückfrage zur Unterlagenlieferung 54;Schriftverkehr;Personal;2026-10-25;2026-10-24;Neu;1;;E-Mail;;;Streng vertraulich;de;2026-11-04
+ROW-0055;DOC-0055;MAT-006;Servicevereinbarung Partner 06;Vertrag;Personal;2026-11-01;2026-10-30;Rückfrage;2;0.96;Scan;;REV-001;Intern;de;2026-11-11
+ROW-0056;DOC-0056;MAT-006;Ergänzung Standort 1;Nachtrag;Personal;2026-11-08;2026-11-05;Freigegeben;3;;Upload;2026-11-09;REV-002;Intern;de;2026-11-18
+ROW-0057;DOC-0057;MAT-006;Beendigung einer Servicevereinbarung;Kündigung;Personal;2026-11-15;2026-11-11;In Prüfung;4;;E-Mail;;REV-003;Vertraulich;de;2026-11-25
+ROW-0058;DOC-0058;MAT-006;Leistungsabrechnung RE-2026-0058;Rechnung;Personal;2026-09-02;2026-08-28;Neu;5;0.70;Scan;;;Intern;de;2026-09-12
+ROW-0059;DOC-0059;MAT-006;Anfrage zu gespeicherten Kontaktdaten;Datenschutzanfrage;Personal;2026-09-09;2026-09-03;Rückfrage;6;;Upload;;REV-005;Intern;de;2026-09-19
+ROW-0060;DOC-0060;MAT-006;Rückfrage zur Unterlagenlieferung 60;Schriftverkehr;Personal;2026-09-16;2026-09-09;Freigegeben;7;;E-Mail;2026-09-21;REV-001;Vertraulich;de;2026-09-26
+ROW-0061;DOC-0061;MAT-007;Servicevereinbarung Partner 07;Vertrag;Vertrieb;2026-09-23;2026-09-15;Freigegeben;8;0.73;Scan;2026-09-29;REV-002;Intern;de;2026-10-03
+ROW-0062;DOC-0062;MAT-007;Ergänzung Standort 3;Nachtrag;Vertrieb;2026-09-30;2026-09-21;In Prüfung;9;;Upload;;REV-003;Intern;de;2026-10-10
+ROW-0063;DOC-0063;MAT-007;Beendigung einer Servicevereinbarung;Kündigung;Vertrieb;2026-10-07;2026-10-06;Neu;10;;E-Mail;;;Streng vertraulich;de;2026-10-17
+ROW-0064;DOC-0064;MAT-007;Leistungsabrechnung RE-2026-0064;Rechnung;Vertrieb;2026-10-14;2026-10-12;Rückfrage;11;0.76;Scan;;REV-005;Intern;de;2026-10-24
+ROW-0065;DOC-0065;MAT-007;Anfrage zu gespeicherten Kontaktdaten;Datenschutzanfrage;Vertrieb;2026-10-21;2026-10-18;Freigegeben;12;;Upload;2026-10-24;REV-001;Intern;de;2026-10-31
+ROW-0066;DOC-0066;MAT-007;Rückfrage zur Unterlagenlieferung 66;Schriftverkehr;Vertrieb;2026-10-28;2026-10-24;In Prüfung;13;;E-Mail;;REV-002;Vertraulich;de;2026-11-07
+ROW-0067;DOC-0067;MAT-007;Servicevereinbarung Partner 07;Vertrag;Vertrieb;2026-11-04;2026-10-30;Neu;14;0.79;Scan;;;Intern;de;2026-11-14
+ROW-0068;DOC-0068;MAT-007;Ergänzung Standort 1;Nachtrag;Vertrieb;2026-11-11;2026-11-05;Rückfrage;15;;Upload;;REV-004;Intern;de;2026-11-21
+ROW-0069;DOC-0069;MAT-007;Beendigung einer Servicevereinbarung;Kündigung;Vertrieb;2026-11-18;2026-11-11;Freigegeben;16;;E-Mail;2026-11-20;REV-005;Vertraulich;de;2026-11-28
+ROW-0070;DOC-0070;MAT-007;Leistungsabrechnung RE-2026-0070;Rechnung;Vertrieb;2026-09-05;2026-08-28;In Prüfung;17;0.82;Scan;;REV-001;Intern;de;2026-09-15
+ROW-0071;DOC-0071;MAT-008;Anfrage zu gespeicherten Kontaktdaten;Datenschutzanfrage;Datenschutz;2026-09-12;2026-09-03;In Prüfung;18;;Upload;;REV-002;Intern;de;2026-09-22
+ROW-0072;DOC-0072;MAT-008;Rückfrage zur Unterlagenlieferung 72;Schriftverkehr;Datenschutz;2026-09-19;2026-09-18;Neu;1;;E-Mail;;;Streng vertraulich;de;2026-09-29
+ROW-0073;DOC-0073;MAT-008;Servicevereinbarung Partner 08;Vertrag;Datenschutz;2026-09-26;2026-09-24;Rückfrage;2;0.85;Scan;;REV-004;Intern;de;2026-10-06
+ROW-0074;DOC-0074;MAT-008;Ergänzung Standort 3;Nachtrag;Datenschutz;2026-10-03;2026-09-30;Freigegeben;3;;Upload;2026-10-08;REV-005;Intern;de;2026-10-13
+ROW-0075;DOC-0075;MAT-008;Beendigung einer Servicevereinbarung;Kündigung;Datenschutz;2026-10-10;2026-10-06;In Prüfung;4;;E-Mail;;REV-001;Vertraulich;de;2026-10-20
+ROW-0076;DOC-0076;MAT-008;Leistungsabrechnung RE-2026-0076;Rechnung;Datenschutz;2026-10-17;2026-10-12;Neu;5;0.88;Scan;;;Intern;de;2026-10-27
+ROW-0077;DOC-0077;MAT-008;Anfrage zu gespeicherten Kontaktdaten;Datenschutzanfrage;Datenschutz;2026-10-24;2026-10-18;Rückfrage;6;;Upload;;REV-003;Intern;de;2026-11-03
+ROW-0078;DOC-0078;MAT-008;Rückfrage zur Unterlagenlieferung 78;Schriftverkehr;Datenschutz;2026-10-31;2026-10-24;Freigegeben;7;;E-Mail;2026-11-02;REV-004;Vertraulich;de;2026-11-10
+ROW-0079;DOC-0079;MAT-008;Servicevereinbarung Partner 08;Vertrag;Datenschutz;2026-11-07;2026-10-30;In Prüfung;8;0.91;Scan;;REV-005;Intern;de;2026-11-17
+ROW-0080;DOC-0080;MAT-008;Ergänzung Standort 1;Nachtrag;Datenschutz;2026-11-14;2026-11-05;Neu;9;;Upload;;;Intern;de;2026-11-24
+ROW-0081;DOC-0081;MAT-009;Beendigung einer Servicevereinbarung;Kündigung;Einkauf;2026-09-01;2026-08-31;Neu;10;;E-Mail;;;Streng vertraulich;de;2026-09-11
+ROW-0082;DOC-0082;MAT-009;Leistungsabrechnung RE-2026-0082;Rechnung;Einkauf;2026-09-08;2026-09-06;Rückfrage;11;0.94;Scan;;REV-003;Intern;de;2026-09-18
+ROW-0083;DOC-0083;MAT-009;Anfrage zu gespeicherten Kontaktdaten;Datenschutzanfrage;Einkauf;2026-09-15;2026-09-12;Freigegeben;12;;Upload;2026-09-22;REV-004;Intern;de;2026-09-25
+ROW-0084;DOC-0084;MAT-009;Rückfrage zur Unterlagenlieferung 84;Schriftverkehr;Einkauf;2026-09-22;2026-09-18;In Prüfung;13;;E-Mail;;REV-005;Vertraulich;de;2026-10-02
+ROW-0085;DOC-0085;MAT-009;Servicevereinbarung Partner 09;Vertrag;Einkauf;2026-09-29;2026-09-24;Neu;14;0.97;Scan;;;Intern;de;2026-10-09
+ROW-0086;DOC-0086;MAT-009;Ergänzung Standort 3;Nachtrag;Einkauf;2026-10-06;2026-09-30;Rückfrage;15;;Upload;;REV-002;Intern;de;2026-10-16
+ROW-0087;DOC-0087;MAT-009;Beendigung einer Servicevereinbarung;Kündigung;Einkauf;2026-10-13;2026-10-06;Freigegeben;16;;E-Mail;2026-10-17;REV-003;Vertraulich;de;2026-10-23
+ROW-0088;DOC-0088;MAT-009;Leistungsabrechnung RE-2026-0088;Rechnung;Einkauf;2026-10-20;2026-10-12;In Prüfung;17;0.71;Scan;;REV-004;Intern;de;2026-10-30
+ROW-0089;DOC-0089;MAT-009;Anfrage zu gespeicherten Kontaktdaten;Datenschutzanfrage;Einkauf;2026-10-27;2026-10-18;Neu;18;;Upload;;;Intern;de;2026-11-06
+ROW-0090;DOC-0090;MAT-009;Rückfrage zur Unterlagenlieferung 90;Schriftverkehr;Einkauf;2026-11-03;2026-11-02;Rückfrage;1;;E-Mail;;REV-001;Streng vertraulich;de;2026-11-13
+ROW-0091;DOC-0091;MAT-010;Servicevereinbarung Partner 10;Vertrag;Personal;2026-11-10;2026-11-08;Rückfrage;2;0.74;Scan;;REV-002;Intern;de;2026-11-20
+ROW-0092;DOC-0092;MAT-010;Ergänzung Standort 1;Nachtrag;Personal;2026-11-17;2026-11-14;Freigegeben;3;;Upload;2026-11-19;REV-003;Intern;de;2026-11-27
+ROW-0093;DOC-0093;MAT-010;Beendigung einer Servicevereinbarung;Kündigung;Personal;2026-09-04;2026-08-31;In Prüfung;4;;E-Mail;;REV-004;Vertraulich;de;2026-09-14
+ROW-0094;DOC-0094;MAT-010;Leistungsabrechnung RE-2026-0094;Rechnung;Personal;2026-09-11;2026-09-06;Neu;5;0.77;Scan;;;Intern;de;2026-09-21
+ROW-0095;DOC-0095;MAT-010;Anfrage zu gespeicherten Kontaktdaten;Datenschutzanfrage;Personal;2026-09-18;2026-09-12;Rückfrage;6;;Upload;;REV-001;Intern;de;2026-09-28
+ROW-0096;DOC-0096;MAT-010;Rückfrage zur Unterlagenlieferung 96;Schriftverkehr;Personal;2026-09-25;2026-09-18;Freigegeben;7;;E-Mail;2026-10-01;REV-002;Vertraulich;de;2026-10-05
+ROW-0097;DOC-0097;MAT-010;Servicevereinbarung Partner 10;Vertrag;Personal;2026-10-02;2026-09-24;In Prüfung;8;0.80;Scan;;REV-003;Intern;de;2026-10-12
+ROW-0098;DOC-0098;MAT-010;Ergänzung Standort 3;Nachtrag;Personal;2026-10-09;2026-09-30;Neu;9;;Upload;;;Intern;de;2026-10-19
+ROW-0099;DOC-0099;MAT-010;Beendigung einer Servicevereinbarung;Kündigung;Personal;2026-10-16;2026-10-15;Rückfrage;10;;E-Mail;;REV-005;Streng vertraulich;de;2026-10-26
+ROW-0100;DOC-0100;MAT-010;Leistungsabrechnung RE-2026-0100;Rechnung;Personal;2026-10-23;2026-10-21;Freigegeben;11;0.83;Scan;2026-10-26;REV-001;Intern;de;2026-11-02
+ROW-0101;DOC-0101;MAT-011;Anfrage zu gespeicherten Kontaktdaten;Datenschutzanfrage;Vertrieb;2026-10-30;2026-10-27;Freigegeben;12;;Upload;2026-11-03;REV-002;Intern;de;2026-11-09
+ROW-0102;DOC-0102;MAT-011;Rückfrage zur Unterlagenlieferung 102;Schriftverkehr;Vertrieb;2026-11-06;2026-11-02;In Prüfung;13;;E-Mail;;REV-003;Vertraulich;de;2026-11-16
+ROW-0103;DOC-0103;MAT-011;Servicevereinbarung Partner 11;Vertrag;Vertrieb;2026-11-13;2026-11-08;Neu;14;0.86;Scan;;;Intern;de;2026-11-23
+ROW-0104;DOC-0104;MAT-011;Ergänzung Standort 1;Nachtrag;Vertrieb;2026-11-20;2026-11-14;Rückfrage;15;;Upload;;REV-005;Intern;de;2026-11-30
+ROW-0105;DOC-0105;MAT-011;Beendigung einer Servicevereinbarung;Kündigung;Vertrieb;2026-09-07;2026-08-31;Freigegeben;16;;E-Mail;2026-09-08;REV-001;Vertraulich;de;2026-09-17
+ROW-0106;DOC-0106;MAT-011;Leistungsabrechnung RE-2026-0106;Rechnung;Vertrieb;2026-09-14;2026-09-06;In Prüfung;17;0.89;Scan;;REV-002;Intern;de;2026-09-24
+ROW-0107;DOC-0107;MAT-011;Anfrage zu gespeicherten Kontaktdaten;Datenschutzanfrage;Vertrieb;2026-09-21;2026-09-12;Neu;18;;Upload;;;Intern;de;2026-10-01
+ROW-0108;DOC-0108;MAT-011;Rückfrage zur Unterlagenlieferung 108;Schriftverkehr;Vertrieb;2026-09-28;2026-09-27;Rückfrage;1;;E-Mail;;REV-004;Streng vertraulich;de;2026-10-08
+ROW-0109;DOC-0109;MAT-011;Servicevereinbarung Partner 11;Vertrag;Vertrieb;2026-10-05;2026-10-03;Freigegeben;2;0.92;Scan;2026-10-10;REV-005;Intern;de;2026-10-15
+ROW-0110;DOC-0110;MAT-011;Ergänzung Standort 3;Nachtrag;Vertrieb;2026-10-12;2026-10-09;In Prüfung;3;;Upload;;REV-001;Intern;de;2026-10-22
+ROW-0111;DOC-0111;MAT-012;Beendigung einer Servicevereinbarung;Kündigung;Datenschutz;2026-10-19;2026-10-15;In Prüfung;4;;E-Mail;;REV-002;Vertraulich;de;2026-10-29
+ROW-0112;DOC-0112;MAT-012;Leistungsabrechnung RE-2026-0112;Rechnung;Datenschutz;2026-10-26;2026-10-21;Neu;5;0.95;Scan;;;Intern;de;2026-11-05
+ROW-0113;DOC-0113;MAT-012;Anfrage zu gespeicherten Kontaktdaten;Datenschutzanfrage;Datenschutz;2026-11-02;2026-10-27;Rückfrage;6;;Upload;;REV-004;Intern;de;2026-11-12
+ROW-0114;DOC-0114;MAT-012;Rückfrage zur Unterlagenlieferung 114;Schriftverkehr;Datenschutz;2026-11-09;2026-11-02;Freigegeben;7;;E-Mail;2026-11-12;REV-005;Vertraulich;de;2026-11-19
+ROW-0115;DOC-0115;MAT-012;Servicevereinbarung Partner 12;Vertrag;Datenschutz;2026-11-16;2026-11-08;In Prüfung;8;0.98;Scan;;REV-001;Intern;de;2026-11-26
+ROW-0116;DOC-0116;MAT-012;Ergänzung Standort 1;Nachtrag;Datenschutz;2026-09-03;2026-08-25;Neu;9;;Upload;;;Intern;de;2026-09-13
+ROW-0117;DOC-0117;MAT-012;Beendigung einer Servicevereinbarung;Kündigung;Datenschutz;2026-09-10;2026-09-09;Rückfrage;10;;E-Mail;;REV-003;Streng vertraulich;de;2026-09-20
+ROW-0118;DOC-0118;MAT-012;Leistungsabrechnung RE-2026-0118;Rechnung;Datenschutz;2026-09-17;2026-09-15;Freigegeben;11;0.72;Scan;2026-09-24;REV-004;Intern;de;2026-09-27
+ROW-0119;DOC-0119;MAT-012;Anfrage zu gespeicherten Kontaktdaten;Datenschutzanfrage;Datenschutz;2026-09-24;2026-09-21;In Prüfung;12;;Upload;;REV-005;Intern;de;2026-10-04
+ROW-0120;DOC-0120;MAT-012;Rückfrage zur Unterlagenlieferung 120;Schriftverkehr;Datenschutz;2026-10-01;2026-09-27;Neu;13;;E-Mail;;;Vertraulich;de;2026-10-11
+ROW-0121;DOC-0051;MAT-006;Beendigung einer Servicevereinbarung;Kündigung;Personal;2026-10-04;2026-09-27;Rückfrage;16;;E-Mail;;REV-002;Vertraulich;de;2026-10-14
+ROW-0122;DOC-0062;MAT-007;Ergänzung Standort 3;Nachtrag;Vertrieb;2026-09-30;2026-09-21;In Prüfung;9;;Upload;;REV-003;Intern;de;2026-10-10
+ROW-0123;DOC-0073;MAT-008;Servicevereinbarung Partner 08;Vertrag;Datenschutz;2026-09-26;2026-09-24;Rückfrage;2;0.85;Scan;;REV-004;Intern;de;2026-10-06
+ROW-0124;DOC-0084;MAT-009;Rückfrage zur Unterlagenlieferung 84;Schriftverkehr;Einkauf;2026-09-22;2026-09-18;In Prüfung;13;;E-Mail;;REV-005;Vertraulich;de;2026-10-02
+ROW-0125;DOC-0095;MAT-010;Anfrage zu gespeicherten Kontaktdaten;Datenschutzanfrage;Personal;2026-09-18;2026-09-12;Rückfrage;6;;Upload;;REV-001;Intern;de;2026-09-28
+ROW-0126;DOC-0106;MAT-011;Leistungsabrechnung RE-2026-0106;Rechnung;Vertrieb;2026-09-14;2026-09-06;Rückfrage;17;0.89;Scan;;REV-002;Intern;de;2026-09-24
+ROW-0127;DOC-0107;MAT-011;Anfrage zu gespeicherten Kontaktdaten;Datenschutzanfrage;Vertrieb;2026-09-21;2026-09-12;Neu;19;;Upload;;;Intern;de;2026-10-01
+ROW-0128;DOC-0108;MAT-011;Rückfrage zur Unterlagenlieferung 108;Schriftverkehr;Vertrieb;2026-09-28;2026-09-27;Rückfrage;1;;E-Mail;;REV-004;Intern;de;2026-10-08

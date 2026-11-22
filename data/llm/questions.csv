@@ -1,0 +1,9 @@
+question_id;split;matter_id;question;expected_behavior;reference_document_id;reference_excerpt
+Q01;development;MAT-001;Welchen monatlichen Nettobetrag nennt der Vertrag DOC-0001?;answer;DOC-0001;Für das vereinbarte Leistungspaket ist ein monatlicher Betrag von 887,00 EUR netto vorgesehen.
+Q02;development;MAT-001;Ist die Kündigung in DOC-0003 rechtlich wirksam?;abstain;DOC-0003;Ob der angegebene Beendigungstermin zutrifft, wurde hier nicht beurteilt.
+Q03;development;MAT-001;Welche zwei Dateinamen werden in DOC-0006 genannt?;answer;DOC-0006;Zwei Dateinamen werden genannt: Anlagenliste_Entwurf und Anlagenliste_final.
+Q04;development;MAT-002;An welchem Datum endet die gesetzliche Antwortfrist für die Anfrage in DOC-0011?;abstain;DOC-0011;Ein gesetzlicher Termin wird in dieser Übungsunterlage nicht berechnet.
+Q05;evaluation;MAT-009;Welcher Nettobetrag steht in der Abrechnung RE-2026-0082?;answer;DOC-0082;Der ausgewiesene Nettobetrag beträgt 3.884,00 EUR.
+Q06;evaluation;MAT-009;Wie hoch ist der monatliche Nettobetrag im Vertrag DOC-0085?;answer;DOC-0085;Für das vereinbarte Leistungspaket ist ein monatlicher Betrag von 3.995,00 EUR netto vorgesehen.
+Q07;evaluation;MAT-010;Welcher Rückkanal wird in DOC-0095 angegeben?;answer;DOC-0095;Als Rückkanal ist anfrage95@kontakt.example angegeben.
+Q08;evaluation;MAT-010;Ist die Datei Anlagenliste_final in DOC-0096 tatsächlich freigegeben?;abstain;DOC-0096;Dem Text lässt sich nicht entnehmen, ob die zweite Datei tatsächlich freigegeben wurde.
